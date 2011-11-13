@@ -5,10 +5,10 @@ Este é um projeto de exemplo usado em posts do blog [Mind Share](http://fabioln
 Execute o comando abaixo para configuração automática do ambiente (os comandos executados neste script são explicados na sequencia).
 
 ```
-source App-Contatos-Django/setup-projeto
+source App-Contatos-Django/setup-project
 ```
 
-## Pré-requisitos automatizados com script setup-projeto
+## Pré-requisitos automatizados com script setup-project
 * Na raiz deste projeto, existe um arquivo .rvmrc, um script que é executado automaticamente ao entrar no diretório do projeto.
 * Este script contém o seguinte comando:
 
@@ -16,9 +16,14 @@ source App-Contatos-Django/setup-projeto
 source ~/.virtualenv/ambiente_app_contatos/bin/activate
 ```
 
-* Este comando serve para carregar o ambiente python "ambiente_app_contatos".
-* Desta forma, o carregamento automático via .rvmrc dispensa o desenvolvedor de carregar o ambiente manualmente no terminal.
+* Este comando serve para ativar o ambiente python "ambiente_app_contatos".
+* Ao entrar no diretório do projeto, após o carregamento do ambiente, o terminal passa a exibir entre parênteses o nome do ambiente virtual python ativado:
 
+```
+(ambiente_app_contatos)fabio@fabio-vbox:~/App-Contatos-Django
+```
+
+* O carregamento automático via .rvmrc dispensa o desenvolvedor de ativar o ambiente manualmente no terminal.
 * Para o carregamento automátio do .rvmrc funcionar, é necessário instalar o RVM.
 * A instalação do RVM é feita pelos seguintes comandos no arquivo setup-project:
 
