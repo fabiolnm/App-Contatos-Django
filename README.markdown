@@ -17,7 +17,7 @@ source ~/.virtualenv/ambiente_app_contatos/bin/activate
 ```
 
 * Este comando serve para ativar o ambiente python "ambiente_app_contatos".
-* Ao entrar no diretório do projeto, após o carregamento do ambiente, o terminal passa a exibir entre parênteses o nome do ambiente virtual python ativado:
+* Após a ativação do ambiente, o terminal passa a exibir entre parênteses o nome do ambiente virtual python ativado:
 
 ```
 (ambiente_app_contatos)fabio@fabio-vbox:~/App-Contatos-Django
