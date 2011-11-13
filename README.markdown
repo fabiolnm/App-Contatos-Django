@@ -13,11 +13,11 @@ source App-Contatos-Django/setup-projeto
 * Este script contém o seguinte comando:
 
 ```
-source ~/.virtualenv/ambiente_app_contatos/bin/activate.
+source ~/.virtualenv/ambiente_app_contatos/bin/activate
 ```
 
 * Este comando serve para carregar o ambiente python "ambiente_app_contatos".
-* Desta forma, o desenvolvedor fica dispensado de carregar manualmente o ambiente no terminal.
+* Desta forma, o carregamento automático via .rvmrc dispensa o desenvolvedor de carregar o ambiente manualmente no terminal.
 
 * Para o carregamento automátio do .rvmrc funcionar, é necessário instalar o RVM.
 * A instalação do RVM é feita pelos seguintes comandos no arquivo setup-project:
