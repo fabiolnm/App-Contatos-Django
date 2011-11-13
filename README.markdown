@@ -1,4 +1,4 @@
-Este é um projeto de exemplo usado em posts do blog fabiolnm.blogspot.com
+Este é um projeto de exemplo usado em posts do blog http://fabiolnm.blogspot.com
 
 # Preparação do Projeto
 
