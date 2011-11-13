@@ -1,0 +1,26 @@
+if [ ! -d $HOME/.rvm ];
+then
+	cd $HOME
+	bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+	source .bashrc
+fi
+
+if [ ! -d $HOME/.virtualenv ];
+then
+	mkdir $HOME/.virtualenv
+fi
+
+cd $HOME/.virtualenv
+
+if [ ! -f virtualenv.py ];
+then
+	curl -O https://raw.github.com/pypa/virtualenv/master/virtualenv.py
+fi
+
+if [ ! -d ambiente_app_contatos ];
+then
+	python virtualenv.py ambiente_app_contatos --no-site-packages
+fi
+
+cd $HOME/App-Contatos-Django
+pip install -r requirements.txt
