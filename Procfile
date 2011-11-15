@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: python App-Contatos/manage.py runserver
